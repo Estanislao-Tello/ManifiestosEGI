@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - name: pagina-web
-          image: ignaciosa/back:v1
+          image: ignaciosa/back:v3
 images: []
 ---
 apiVersion: apps/v1
@@ -19,5 +19,5 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ignaciosa/back:v1
+          image: ignaciosa/back:v3
 images: []
