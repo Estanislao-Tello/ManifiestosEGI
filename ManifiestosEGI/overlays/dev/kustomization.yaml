@@ -6,6 +6,6 @@ namespace: golgana-dev
 resources:
   - ../../base
 
-patchesStrategicMerge:
-  - patch-images.yaml
-  - pv-patch.yaml
+patches:
+  - path: patch-images.yaml
+  - path: pv-patch.yaml
