@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: pv-golgana-dev
+  name: pv-golgana
 spec:
   claimRef:
     namespace: golgana-dev
