@@ -8,7 +8,8 @@ spec:
       containers:
         - name: pagina-web
           image: ignaciosa/front:latest
-
+    metadata:
+      annotations: null
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -20,3 +21,5 @@ spec:
       containers:
         - name: backend
           image: ignaciosa/back:latest
+    metadata:
+      annotations: null
