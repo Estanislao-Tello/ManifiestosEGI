@@ -8,3 +8,4 @@ resources:
 
 patchesStrategicMerge:
   - patch-images.yaml
+  - pv-patch.yaml
