@@ -3,5 +3,13 @@ kind: PersistentVolume
 metadata:
   name: pv-golgana
 spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: gp2            # o la tuya
+  hostPath:                        #  ejemplo estático
+    path: /mnt/data/golgana-prod
   claimRef:
     namespace: golgana-prod
+    name: backend-pvc              # o el nombre real del PVC
