@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: frontend-backend-ingress-dev
+  name: frontend-backend-ingress
 spec:
   rules:
   - host: golganadev.com
