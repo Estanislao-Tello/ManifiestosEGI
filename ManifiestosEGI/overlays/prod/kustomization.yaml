@@ -5,6 +5,7 @@ namespace: golgana-prod
 
 resources:
   - ../../base
+  - pv.yaml
 
 patches:
   - path: patch-images.yaml
