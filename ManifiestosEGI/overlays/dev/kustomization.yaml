@@ -5,7 +5,8 @@ namespace: golgana-dev
 
 resources:
   - ../../base
+  - pv.yaml
 
 patches:
   - path: patch-images.yaml
-  - path: pv-patch.yaml
+  - path: patch-ingress.yaml
